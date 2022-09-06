@@ -1,4 +1,4 @@
-package sort;
+package standard.sort;
 
 /**
  * @Description:选择排序 时间复杂度为O(n^2)

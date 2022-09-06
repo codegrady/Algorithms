@@ -1,4 +1,4 @@
-package sort;
+package standard.sort;
 
 import java.util.Arrays;
 
@@ -11,7 +11,7 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         int[] arr = {12,54,2,64,36,7,97,3,32,37,51,4,9,6,4,222,6};
-//        sort(arr);
+//        standard.sort(arr);
         System.out.println(Arrays.toString(arr));
         Arrays.parallelSort(arr,0,arr.length);
         System.out.print(Arrays.toString(arr));

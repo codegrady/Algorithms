@@ -1,4 +1,4 @@
-package sort;
+package standard.sort;
 
 /**
  * @Description:归并排序

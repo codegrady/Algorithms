@@ -1,4 +1,4 @@
-package sort;
+package standard.sort;
 
 /**
  * @Description:快速排序
