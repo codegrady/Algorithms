@@ -42,10 +42,15 @@ public class Calculator {
 //        System.out.println(Character.isDigit(c));
 
        String e = "3+5/2";
-        System.out.println(calculate(e));
+        System.out.println(simpleCalculate(e));
     }
 
-    public static int calculate(String s) {
+    /**
+     * + - * / 四种运算符
+     * @param s
+     * @return
+     */
+    public static int simpleCalculate(String s) {
         Stack<Integer> stack = new Stack<>();
         int num = 0;
         // 前一个运算符
@@ -83,6 +88,33 @@ public class Calculator {
         return res;
     }
 
+    /**
+     * 给你一个字符串表达式 s ，请你实现一个基本计算器来计算并返回它的值。
+     * 注意:不允许使用任何将字符串作为数学表达式计算的内置函数，比如 eval() 。
+     *
+     * 输入：s = "1 + 1"
+     * 输出：2
+     *
+     * 输入：s = " 2-1 + 2 "
+     * 输出：3
+     *
+     * 输入：s = "(1+(4+5+2)-3)+(6+8)"
+     * 输出：23
+     * ‘
+     * + - （ ）
+     * @param s
+     * @return
+     */
+    public static int simpleBraCal(String s){
+        Stack<Integer> stack = new Stack<>();
+        stack.push(1);
+        int sign = 1;
+        int ret = 0;
+        int length = s.length(),i=0;
+        while (i<length){
 
+        }
+        return 0;
+    }
 
 }

@@ -25,6 +25,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1545]找出第 N 个二进制字符串中的第 K 位.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1545]找出第 N 个二进制字符串中的第 K 位.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1545" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1545]找出第 N 个二进制字符串中的第 K 位.java" />
+              <option name="titleSlug" value="find-kth-bit-in-nth-binary-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[164]最大间距.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[164]最大间距.md" />
+              <option name="frontendQuestionId" value="leetcode.cn164" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[164]最大间距.java" />
+              <option name="titleSlug" value="maximum-gap" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[224]基本计算器.java">
           <value>
             <LeetcodeEditor>
@@ -33,6 +55,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[224]基本计算器.java" />
               <option name="titleSlug" value="basic-calculator" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[227]基本计算器 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[227]基本计算器 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn227" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[227]基本计算器 II.java" />
+              <option name="titleSlug" value="basic-calculator-ii" />
             </LeetcodeEditor>
           </value>
         </entry>

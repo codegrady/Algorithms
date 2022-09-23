@@ -1,5 +1,7 @@
 package leetcode;
 
+import leetcode.entity.ListNode;
+
 /**
  * https://leetcode.cn/problems/add-two-numbers/
  *
@@ -73,16 +75,4 @@ public class AddTwoNumbers {
         }
         return root.next;
     }
-}
-class ListNode{
-    int val;
-    ListNode next;
-
-    public ListNode(){}
-
-    public ListNode(int val){
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
