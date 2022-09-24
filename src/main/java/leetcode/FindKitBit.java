@@ -47,8 +47,6 @@ public class FindKitBit {
 
 
     public static char findKthBit(int n, int k) {
-        int length = 9;
-        int random = (int)(Math.random()*length);
         if (k == 1) {
             return '0';
         }
@@ -64,7 +62,6 @@ public class FindKitBit {
     }
 
     public static char invert(char bit) {
-
         return (char) ('0' + '1' - bit);
     }
 }
