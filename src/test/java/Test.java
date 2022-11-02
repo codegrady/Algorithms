@@ -4,10 +4,11 @@ import java.util.concurrent.CompletableFuture;
 public class Test {
     
     public static void main(String[] args) {
+        System.out.println(((Math.pow(10, 9) + 7) > Integer.MAX_VALUE));
 
-        StringBuffer sb = new StringBuffer("abc");
-        System.out.println(String.valueOf(sb).equals(String.valueOf(sb.reverse())));
-        System.out.println(sb);
+//        StringBuffer sb = new StringBuffer("abc");
+//        System.out.println(String.valueOf(sb).equals(String.valueOf(sb.reverse())));
+//        System.out.println(sb);
 //        List<Integer> list = new ArrayList<>();
 //        for (int i = 0; i < 1000; i++) {
 //            list.add(i);
