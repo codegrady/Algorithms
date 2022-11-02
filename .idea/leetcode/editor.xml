@@ -3,6 +3,17 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1465]切割后面积最大的蛋糕.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1465]切割后面积最大的蛋糕.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1465" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1465]切割后面积最大的蛋糕.java" />
+              <option name="titleSlug" value="maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[817]链表组件.java">
           <value>
             <LeetcodeEditor>
