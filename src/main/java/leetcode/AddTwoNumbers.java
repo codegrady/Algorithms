@@ -1,6 +1,6 @@
 package leetcode;
 
-import leetcode.entity.ListNode;
+import entity.ListNode;
 
 /**
  * https://leetcode.cn/problems/add-two-numbers/

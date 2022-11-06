@@ -1,6 +1,6 @@
 package leetcode;
 
-import leetcode.entity.ListNode;
+import entity.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;
