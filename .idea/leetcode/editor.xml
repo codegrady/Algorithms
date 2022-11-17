@@ -17,11 +17,11 @@
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1465]切割后面积最大的蛋糕.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1465]切割后面积最大的蛋糕.md" />
-              <option name="frontendQuestionId" value="leetcode.cn1465" />
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[14]最长公共前缀.md" />
+              <option name="frontendQuestionId" value="leetcode.cn14" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1465]切割后面积最大的蛋糕.java" />
-              <option name="titleSlug" value="maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[14]最长公共前缀.java" />
+              <option name="titleSlug" value="longest-common-prefix" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -105,22 +105,22 @@
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[817]链表组件.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[817]链表组件.md" />
-              <option name="frontendQuestionId" value="leetcode.cn817" />
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[15]三数之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn15" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[817]链表组件.java" />
-              <option name="titleSlug" value="linked-list-components" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[15]三数之和.java" />
+              <option name="titleSlug" value="3sum" />
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[940]不同的子序列 II.java">
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1678]设计 Goal 解析器.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[940]不同的子序列 II.md" />
-              <option name="frontendQuestionId" value="leetcode.cn940" />
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1678]设计 Goal 解析器.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1678" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[940]不同的子序列 II.java" />
-              <option name="titleSlug" value="distinct-subsequences-ii" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1678]设计 Goal 解析器.java" />
+              <option name="titleSlug" value="goal-parser-interpretation" />
             </LeetcodeEditor>
           </value>
         </entry>
