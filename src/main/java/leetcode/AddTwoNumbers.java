@@ -36,10 +36,12 @@ import entity.ListNode;
 public class AddTwoNumbers {
 
     public static void main(String[] args) {
-        ListNode l1 = new ListNode(2,new ListNode(4,new ListNode(3)));
-        ListNode l2 = new ListNode(5,new ListNode(6,new ListNode(4)));
+        ListNode l1 = new ListNode(0);
+//        ListNode l1 = new ListNode(2,new ListNode(4,new ListNode(3)));
+        ListNode l2 = new ListNode(1);
+//        ListNode l2 = new ListNode(5,new ListNode(6,new ListNode(4)));
 
-        ListNode listNode = addTwoNumbers(l1,l2);
+        ListNode listNode = add2(l1,l2);
         while (listNode!=null){
             System.out.print(listNode.val);
             listNode = listNode.next;
@@ -74,5 +76,28 @@ public class AddTwoNumbers {
             cur.next = new ListNode(up);
         }
         return root.next;
+    }
+
+    static int quotient = 0;
+    static int remainder = 0;
+    public static ListNode add2(ListNode l1, ListNode l2){
+        if(l1 == null && l2 == null){
+            if(quotient > 0){
+                return new ListNode(quotient);
+            }
+            return null;
+        }else if(l1 == null){
+            remainder = (l2.val + quotient) % 10;
+            quotient = (l2.val + quotient) / 10;
+            return new ListNode(remainder,add2(null,l2.next));
+        }else if(l2 == null){
+            remainder = (l1.val + quotient) % 10;
+            quotient = (l1.val + quotient) / 10;
+            return new ListNode(remainder,add2(l1.next,null));
+        }else{
+            remainder = (l1.val + l2.val + quotient) % 10;
+            quotient = (l1.val + l2.val + quotient) / 10;
+            return new ListNode(remainder,add2(l1.next,l2.next));
+        }
     }
 }
