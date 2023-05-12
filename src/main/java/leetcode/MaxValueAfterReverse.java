@@ -31,13 +31,13 @@ public class MaxValueAfterReverse {
                     }
                 }
             }
-            //new array
-            int mid = (start+end)/2;
-            for(int i = 0;i<= mid-start; i++){
-                int tmp = nums[start+i];
-                nums[start+i] = nums[end-i];
-                nums[end-i] = tmp;
-            }
+//            //new array
+//            int mid = (start+end)/2;
+//            for(int i = 0;i<= mid-start; i++){
+//                int tmp = nums[start+i];
+//                nums[start+i] = nums[end-i];
+//                nums[end-i] = tmp;
+//            }
             System.out.println("===========");
             int sum = 0;
             System.out.println("start = " + start);
@@ -46,7 +46,7 @@ public class MaxValueAfterReverse {
                 sum += Math.abs(nums[i]-nums[i+1]);
             }
             System.out.println(Arrays.toString(nums));
-            return sum;
+            return sum+ maxSubSideSum;
         }
     }
 
