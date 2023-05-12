@@ -1,5 +1,9 @@
 package leetcode;
 
+/**
+ * Leetcode 4
+ * 两个正序数据的中位数
+ */
 public class FindMedianSortedArrays {
     public static void main(String[] args) {
         int[] nums1 = {0,0,0,0,0};
@@ -8,20 +12,20 @@ public class FindMedianSortedArrays {
     }
 
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        if(nums1 == null){
-            nums1 = new int[0];
-        }
-        if(nums2 == null){
-            nums2 = new int[0];
-        }
+//        if(nums1 == null){
+//            nums1 = new int[0];
+//        }
+//        if(nums2 == null){
+//            nums2 = new int[0];
+//        }
         int total = nums1.length + nums2.length;
         int target = total/2;
         boolean isOdd = total%2==1;
-        if(nums1.length == 0){
-            return isOdd?nums2[target]:((double) (nums2[target -1]+nums2[target]))/2;
-        }else if(nums2.length == 0){
-            return isOdd?nums1[target]:((double) (nums1[target -1]+nums1[target]))/2;
-        }else {
+//        if(nums1.length == 0){
+//            return isOdd?nums2[target]:((double) (nums2[target -1]+nums2[target]))/2;
+//        }else if(nums2.length == 0){
+//            return isOdd?nums1[target]:((double) (nums1[target -1]+nums1[target]))/2;
+//        }else {
             int index = 0,idx1 = 0, idx2 = 0;
             int midBefore = 0,midAfter = 0;
             while (index<=target && idx1 < nums1.length && idx2 < nums2.length){
@@ -62,7 +66,7 @@ public class FindMedianSortedArrays {
 
             return isOdd?midAfter:((double) (midBefore+midAfter))/2;
 
-        }
+//        }
 
     }
 }
